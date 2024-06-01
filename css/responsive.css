@@ -1,0 +1,428 @@
+/* Mobile Portrait Start */
+
+@media(max-width: 575px){
+	
+	body{
+		padding-top: 60px;
+	}
+	
+	section{
+		margin-bottom: 30px;
+	}
+	
+	.btn{
+		padding: 5px 10px !important;
+		font-size: 16px !important;
+	}
+	
+	/* Header Start */
+	
+	header{
+		background: #000;
+		z-index: 17;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+		
+	html .header-top{
+		padding: 0;
+	}
+	
+	.header-top div{
+		display: none !important;
+	}
+	
+	html .navbar-collapse{
+		width: 100%;
+		height: 100vh!important;
+		position: fixed;
+		display:block!important;
+		top:0;
+		transform:translateY(-100%);
+		left: 56px;
+		background: #2a2a2a;
+		border-radius: 0 0 150px 150px;
+		text-align: center;
+		transition: all 0.5s;
+	}
+	
+	html .navbar-collapse.show{
+		transform:translateY(0);
+	}
+	
+	html .nav-mobile ul{
+		margin-top: 100px;
+	}
+	
+	html .nav-item.dropdown{
+		position: relative;
+		margin: 0 auto;
+	}	
+	
+	html .navbar-nav .dropdown-menu{
+		position: static;
+		float: left;
+	}
+	
+	html .colse-ico{
+		display: block;
+	}	
+		
+
+	
+	/* Header End */
+	
+	
+	/* Carousel Start */
+	
+	html .carousel-caption h5{
+		font-size: 16px !important;
+	}
+	
+	html .carousel-caption p{
+		font-size: 10px !important;
+	}
+	
+	html .carousel-caption{
+		top: 10% !important;
+		z-index: 1;
+}
+	
+	html .carousel-indicators {
+		display: none;
+	}
+	
+	html .carousel-caption{
+		top: 30%;
+		z-index: 1;
+	}
+	
+	html .carousel-caption h5{
+		font-size: 26px;
+	}
+	
+	html .carousel-caption p{
+		font-size: 16px;
+	}
+	
+	/* Carousel End */
+	
+	/* Custom Start */
+	
+	html .about-fitza p{
+		font-size: 16px !important;
+	}
+	
+	.contact-baneer h3{
+		font-size: 24px !important;
+	}
+	
+	.contact-baneer p{
+		font-size: 14px;
+	}
+	
+	.top-classes-text p{
+		font-size: 16px;
+	}
+	
+	html .reating{
+		width: 27%;
+	}
+	
+	.reating .reating-1{
+		width: 140%;
+	}
+	
+	.pricing-heading p{
+		font-size: 16px;
+		margin: 0;
+	}
+	
+	.appointment{
+		padding: 20px;
+	}
+	
+	.appointment-data p{
+		font-size: 18px;
+	}
+	
+	.appointment-data h3{
+		font-size: 25px;
+		font-family: 'Poppins';
+	}
+
+	.news-heading h3{
+		font-size: 32px;
+		margin: 0;
+	}	
+	
+	html .footer-top h3{
+		font-size: 18px !important;
+	}
+	
+	html .footer-top p{
+		font-size: 14px;
+	}
+	
+	.card-text {
+		font-size: 14px;
+	}
+	
+	.about-fitaza div h2 {
+		margin-bottom: 30px;
+	}
+	
+	html .service-detail h2 {
+		font-size: 42px;
+		font-family: 'Poppins';
+		margin-bottom: 20px;
+	}
+	
+	html .service-detail ul li {
+		font-size: 14px;
+		font-family: 'Lato';
+		margin: 10px 0;
+	}
+	
+	html .registration-form h3 {
+		margin-bottom: 24px;
+	}
+	
+	/* Custom End */
+}
+/* Mobile Portrait End */
+
+
+/* Mobile Landscape Start*/
+
+@media(min-width: 576px) and (max-width: 767px){
+	
+	.btn{
+		padding: 5px 10px !important;
+		font-size: 16px !important;
+	}
+	
+	/* Header Start */
+	
+	header{
+		background: #000;
+		z-index: 9;
+		margin-bottom: 10px;
+	}
+		
+	html .header-top{
+		padding: 0;
+	}
+	
+	.header-top div{
+		display: none !important;
+	}
+	
+	html .navbar-collapse{
+		width: 100%;
+		height: 100vh!important;
+		position: fixed;
+		display:block!important;
+		top:0;
+		transform:translateY(-100%);
+		left: 0;
+		background: #2a2a2a;
+		border-radius: 0 0 150px 150px;
+		text-align: center;
+		transition: all 0.5s;
+	}
+	
+	html .navbar-collapse.show{
+		transform:translatey(0);
+		border-radius: 0 ;
+	}
+	
+	html .nav-mobile ul{
+		margin-top: 100px;
+	}
+	
+	html .nav-item.dropdown{
+		position: relative;
+		margin: 0 auto;
+	}	
+	
+	html .navbar-nav .dropdown-menu{
+		position: static;
+		float: left;
+	}
+	
+	html .colse-ico{
+		display: block;
+	}
+		
+	/* Header End */
+	
+	
+	/* Carousel Start */
+	
+	html .carousel-indicators li{
+		width: 10px;
+		height: 10px;
+	}
+	
+	html .carousel-caption{
+		top: 30%;
+		z-index: 1;
+	}
+	
+	html .carousel-caption h5{
+		font-size: 26px;
+	}
+	
+	html .carousel-caption p{
+		font-size: 16px;
+	}
+	
+	/* Carousel End */
+	
+	
+	/* Footer Start */
+	
+	html .footer-top h3{
+		font-size: 24px;
+	}
+	
+	html .footer-bottom{
+		justify-content: center;
+	}
+	
+	html .footer-bottom div div div p{
+		margin: 0 auto !important;
+		text-align: center !important;
+		justify-content: center !important;
+	}
+	/* Footer End */
+	
+	/* Carousel Start */
+	
+	html .carousel-caption h5{
+		font-size: 16px !important;
+	}
+	
+	html .carousel-caption p{
+		font-size: 10px !important;
+	}
+	
+	html .carousel-caption{
+		top: 10% !important;
+		z-index: 1;
+}
+	
+	html .carousel-indicators {
+		display: none;
+	}
+	
+	html .carousel-caption{
+		top: 30%;
+		z-index: 1;
+	}
+	
+	html .carousel-caption h5{
+		font-size: 26px;
+	}
+	
+	html .carousel-caption p{
+		font-size: 16px;
+	}
+	
+	/* Carousel End */
+	
+	/* Custom Start */
+	
+	html .about-fitza p{
+		font-size: 16px !important;
+	}
+	
+	.contact-baneer h3{
+		font-size: 24px !important;
+	}
+	
+	.contact-baneer p{
+		font-size: 14px;
+	}
+	
+	.top-classes-text p{
+		font-size: 16px;
+	}
+	
+	html .reating{
+		width: 27%;
+	}
+	
+	.reating .reating-1{
+		width: 140%;
+	}
+	
+	.pricing-heading p{
+		font-size: 16px;
+		margin: 0;
+	}
+	
+	.appointment{
+		padding: 20px;
+	}
+	
+	.appointment-data p{
+		font-size: 18px;
+	}
+	
+	.appointment-data h3{
+		font-size: 25px;
+		font-family: 'Poppins';
+	}
+
+	.news-heading h3{
+		font-size: 32px;
+		margin: 0;
+	}	
+	
+	html .footer-top h3{
+		font-size: 18px !important;
+	}
+	
+	html .footer-top p{
+		font-size: 14px;
+	}
+	
+	.card-text {
+		font-size: 14px;
+	}
+	
+	.about-fitaza div h2 {
+		margin-bottom: 30px;
+	}
+	
+	html .service-detail h2 {
+		font-size: 42px;
+		font-family: 'Poppins';
+		margin-bottom: 20px;
+	}
+	
+	html .service-detail ul li {
+		font-size: 14px;
+		font-family: 'Lato';
+		margin: 10px 0;
+	}
+	
+	html .registration-form h3 {
+		margin-bottom: 24px;
+	}
+	
+	/* Custom End */
+	
+}
+/* Mobile Landscape End*/
+
+
+/* Dekstop Start Start */
+
+@media(min-width:1200px){
+	
+}
+/* Dekstop Start End */

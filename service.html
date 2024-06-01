@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fitaza | Service page</title>
+		<link rel="shortcut icon" href="image/icon.png">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<link href="css/responsive.css" rel="stylesheet" type="text/css">
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="font/stylesheet.css" rel="stylesheet" type="text/css">
+		
+		
+		<!-- JS Link Start -->
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<!-- JS Link End -->
+		
+		<!-- Fancybox Start -->
+		<link href="css/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+		<script src="js/jquery.fancybox.min.js"></script>
+		<!-- Fancybox End -->
+		
+		<!-- Web Font Start -->
+		<link href="webfont/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+		<link href="webfont/fontawesome/css/brands.min.css" rel="stylesheet">
+		<link href="webfont/fontawesome/css/solid.min.css" rel="stylesheet">
+		<!-- Web Font End -->
+		
+		
+		<!-- Navbar Start -->
+		<script>
+			$(document).ready(function(){
+				$(".colse-ico").click(function(){
+					$(".navbar-collapse").removeClass("show");
+				});
+			});
+		</script>
+		<!-- Navbar End -->
+		
+		
+		<!-- Owl Carousel Start -->
+		<link href="css/owl.carousel.min.css" rel="stylesheet">
+		<link href="css/owl.theme.default.min.css" rel="stylesheet">
+		<script src="js/owl.carousel.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.owl-carousel').owlCarousel({
+					loop:true,
+					margin:30,
+					nav:true,
+					dots:false,
+					responsive:{
+						0:{
+							items:1
+						},
+						767:{
+							items:2
+						}
+					}
+				});
+			});
+		</script>
+		<!-- Owl Carousel End -->
+		
+		<!-- Back-to-top Start -->
+		<script>
+			$(document).ready(function(){
+				$(window).scroll(function(){
+					if ($(this).scrollTop() > 100) {
+						$('.backto-top').addClass('on');
+					} else {
+						$('.backto-top').removeClass('on');
+					}
+				});
+				
+				$('.backto-top').click(function(){
+					$('html, body').animate({scrollTop : 0},800);
+					return false;
+				});
+			});
+		</script>
+		<!-- Back-to-top End -->
+		
+		<!-- Wow JS Start -->
+		<link href="css/animate.css" rel="stylesheet" type="text/css">
+		<script src="js/wow.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				new WOW().init();
+			});
+		</script>
+		<!-- Wow Js End -->
+		
+		
+		<!-- Theme Start -->
+		
+		<script>
+			$(document).ready(function(){
+			
+				$(".btn-left").click(function(){
+					$(".theme").css("transform", "translateX(0)");
+					$(".btn-left").hide();
+					$(".btn-right").show();
+				});
+				
+				$(".btn-right").click(function(){
+					$(".theme").css("transform", "translateX(-301px)");
+					$(".btn-right").hide();
+					$(".btn-left").show();
+				});
+				
+				$(".blue").click(function(){
+					$("html").addClass("blue");
+					$("html").removeClass("yellow");
+					$("html").removeClass("red");
+					$("html").removeClass("green");
+					
+				});
+				$(".yellow").click(function(){
+					$("html").addClass("yellow");
+					$("html").removeClass("blue");
+					$("html").removeClass("red");
+					$("html").removeClass("green");
+					
+				});
+				$(".red").click(function(){
+					$("html").addClass("red");
+					$("html").removeClass("yellow");
+					$("html").removeClass("blue");
+					$("html").removeClass("green");
+					
+				});
+				$(".green").click(function(){
+					$("html").addClass("green");
+					$("html").removeClass("yellow");
+					$("html").removeClass("red");
+					$("html").removeClass("blue");
+					
+				});
+				  
+			});
+		</script>
+		
+		<!-- Theme End -->
+
+	</head>
+	
+	
+	<body>
+		
+		<!-- Header Start -->
+		
+		<header class="w-100 position-absolute wow bounceInDown">
+			<div class="header-top border-bottom">
+				<div class="container d-flex justify-content-between">
+					<div class="header-info">
+						<ul class="list-unstyled d-flex mb-0">
+							<li>          
+								<a href="tel:+(1800)4567890"><i class="fas fa-phone-alt"></i>+(1800)4567890</a>
+							</li>         
+										
+							<li>          
+								<a href="emailto:info@fitaza.com"><i class="fas fa-envelope"></i>info@fitaza.com</a>
+							</li>         
+										
+							<li>          
+								<a href="#"><i class="fas fa-clock"></i>Mon-Sat: 9 am to 5 pm </a>
+							</li>
+						</ul>
+					</div>
+					
+					<div class="header-social-icon">
+						<ul class="list-unstyled d-flex mb-0">
+							<li>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+							</li>
+							
+							<li>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+							</li>
+							
+							<li>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+							</li>
+							
+							<li>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+											<!-- Navbar - Start -->
+											
+			<nav class="navbar navbar-expand-lg navbar-dark border-bottom">
+				<div class="container">
+					<a class="navbar-brand" href="#">
+						<img src="image/logo.png" alt="logo">
+					</a>
+					
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					
+					<div class="collapse navbar-collapse nav-mobile" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							
+							<div class="colse-ico">
+								<i class="fas fa-times"></i>
+							</div>
+							
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle px-0" href="index.html" id="navbarDropdown" data-toggle="dropdown">
+									Home
+								</a>
+								
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="index.html">Action</a>
+									<a class="dropdown-item" href="index.html">Another action</a>
+									<a class="dropdown-item" href="index.html">Something else here</a>
+								</div>
+							</li>
+							
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle px-0" href="about.html" id="navbarDropdown" data-toggle="dropdown">
+									About Us 
+								</a>
+								
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="about.html">Action</a>
+									<a class="dropdown-item" href="about.html">Another action</a>
+									<a class="dropdown-item" href="about.html">Something else here</a>
+								</div>
+							</li>
+							
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle px-0" href="classes.html" id="navbarDropdown" data-toggle="dropdown">
+									Classes 
+								</a>
+								
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="classes.html">Action</a>
+									<a class="dropdown-item" href="classes.html">Another action</a>
+									<a class="dropdown-item" href="classes.html">Something else here</a>
+								</div>
+							</li>
+							
+							<li class="nav-item dropdown  active">
+								<a class="nav-link dropdown-toggle px-0" href="#" id="navbarDropdown" data-toggle="dropdown">
+									Service
+								</a>
+								
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Action</a>
+									<a class="dropdown-item" href="#">Another action</a>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</div>
+							</li>
+							
+							<li class="nav-item dropdown">
+								<a class="nav-link px-0" href="contact.html">Contact Us</a>
+							</li>
+					
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+											<!-- Navbar - End -->	
+		</header>
+		
+		<!-- Header End -->
+		
+		
+		
+		<!-- Banner Start -->
+		
+		<section class="mt-0 baneer">
+			<h2>Our Service</h2>
+		</section>
+		
+		<!-- Banner End -->
+		
+		
+		<!-- Service Start -->
+			
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-6 wow slideInLeft">
+						<div class="service-detail">
+							<h2>Services and Amenities</h2>
+							<h3>24/7 FITNESS</h3>
+							<ul class="list-unstyled">
+								<li><span>1)</span>Classes are FREE with Membership!</li>
+								<li><span>2)</span>Free Aerobics</li>
+								<li><span>3)</span>Cardio Equipment with cardio theater</li>
+								<li><span>4)</span>Selectorize Equipment</li>
+								<li><span>5)</span>Free Weights</li>
+								<li><span>6)</span>Personal trainers</li>
+								<li><span>7)</span>Free gym orientation with membership</li>
+								<li><span>8)</span>Weight-loss packages</li>
+								<li><span>9)</span>Customized diet plans</li>
+								<li><span>10)</span>Supplements available for purchase</li>
+								<li><span>11)</span>Corporate membership rates</li>
+								<li><span>12)</span>Discounted rates for select groups</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-12 col-md-6 wow slideInRight">
+						<div class="service-img">
+							<a data-fancybox="gallery" href="image/service-img-1.jpg"><img src="image/service-img-1.jpg" class="w-100 d-block"></a>
+							<a data-fancybox="gallery" href="image/service-img-2.jpg"><img src="image/service-img-2.jpg" class="w-100 d-block"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-4 mt-3 mt-md-0 wow zoomIn">
+						<div class="service-info shadow">
+							<i class="fas fa-dumbbell"></i>
+							<h3>Accessory<h3>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							</p>
+						</div>
+					</div>
+					
+					<div class="col-12 col-md-4 mt-3 mt-md-0 wow slideInLeft">
+						<div class="service-info shadow">
+							<i class="fas fa-male"></i>
+							<h3>Trainer<h3>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							</p>
+						</div>
+					</div>
+					
+					
+					
+					<div class="col-12 col-md-4 mt-3 mt-md-0 wow slideInRight">
+						<div class="service-info shadow">
+							<i class="fas fa-utensils"></i>
+							<h3>Diet<h3>
+							<p>
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Service End -->
+		
+				
+		<!-- Footer Start -->
+			<footer class="wow bounceInUp">
+					<div class="footer-top p-3">
+						<div class="footer-form container">
+							<div class="row">
+								<div class="col-12 col-md-6 text-light d-flex align-items-center">
+									<i class="fas fa-paper-plane"></i>
+									<div class="ml-3">
+										<h3 class="m-0">Subscribe our newsletter</h3>
+										<p class="m-0">Register now! We will send you best offers for your trip. </p>
+									</div>
+								</div>
+							
+								<div class="col-12 col-md-6 d-flex align-items-center mt-3 mt-md-0">
+									 <input type="email" class="form-control mr-4" placeholder="Enter email">
+									 <a href="#" class="submit-btn">Submit</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="footer-body">
+						<div class="container">
+							<div class="row">
+								<div class="col-12 col-md-4">
+									<div class="footer-data-1">
+										<a href="#"><img src="image/logo.png"></a>
+										<p class="text-light">
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula egetdolor. Aenean massa.
+										</p>
+										
+										<ul class="list-unstyled">
+											<li>
+												<a href="#"><i class="fas fa-phone-alt"></i>1(123) 456-7890</a>
+											</li>
+											
+											<li>
+												<a href="#"><i class="fas fa-envelope"></i>San Diego City, US</a>
+											</li>
+											
+											<li>
+												<a href="#"><i class="fas fa-clock"></i>Mon - Sat 9.00 - 17.00</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="col-12 col-md-4">
+									<div class="footer-data-2">
+										<h3>Useful Links</h3>
+										<ul class="list-unstyled">
+											<li>
+												<a href="#">Home</a>
+											</li>
+											
+											<li>
+												<a href="#">About Us</a>
+											</li>
+											
+											<li>
+												<a href="#">Faq</a>
+											</li>
+											
+											<li>
+												<a href="#">Appointment</a>
+											</li>
+											
+											<li>
+												<a href="#">Contact Us</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="col-12 col-md-4">
+									<div class="footer-data-2">
+										<h3>Opening Hours</h3>
+										<ul class="list-unstyled">
+											<li>
+												<a href="#">Monday</a>
+												<span>8:00 AM - 4:00 PM</span>
+											</li>
+											
+											<li>
+												<a href="#">Wednesday</a>
+												<span>8:00 AM - 4:00 PM</span>
+											</li>
+											
+											<li>
+												<a href="#">Friday</a>
+												<span>8:00 AM - 4:00 PM</span>
+											</li>
+											
+											<li>
+												<a href="#">Saturday</a>
+												<span>9:00 AM - 3:00 PM</span>
+											</li>
+											
+											<li>
+												<a href="#">Sunday</a>
+												<span>closed</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="footer-bottom">
+						<div class="container">
+							<div class="row">
+								<div class="col-12 col-md-6 text-light d-block text-center text-md-left">
+									<p>
+										Copyright © Fitaza 2018. All rights reserved.                     
+									</p>
+								</div>
+							
+								<div class="col-12 col-md-6 text-light d-block text-center text-md-right">
+									<p>
+										 Created by: ThemeChampion                     
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			</footer>
+			
+		<!-- Footer End -->
+		
+		
+		<!-- Back-to-top Start -->
+		
+			<section class="m-0">
+				<div class="backto-top">
+					<i class="fas fa-angle-up"></i>
+				</div>
+			</section>
+			
+		<!-- Back-to-top End -->
+		
+		
+		<!-- Theme Start -->
+		
+			<section class="m-0">
+				<div class="theme shadow-lg">
+					<div class="theme-btn">
+						<a href="#" class="btn-left">
+							<i class="fas fa-chevron-right"></i>
+						</a>
+						
+						
+						<a href="#" class="btn-right">
+							<i class="fas fa-chevron-left"></i>
+						</a>
+					</div>
+					
+					<div class="theme-data">
+						<div class="blue"></div>
+						<div class="red"></div>
+						<div class="green"></div>
+						<div class="yellow"></div>
+					</div>
+				</div>
+			</section>
+			
+		<!-- Theme End -->
+	</body>
+	
+</html>
